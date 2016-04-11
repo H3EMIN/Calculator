@@ -18,4 +18,10 @@ public class smplCalculatorTest {
 		cal.sub(40, 20);
 		assertEquals(20,cal.getResult());
 	}
+	@Test
+	public void testDiv() {
+		smplCalculator cal = new smplCalculator();
+		cal.div(48, 6);
+		assertEquals(8,cal.getResult());
+	}
 }
