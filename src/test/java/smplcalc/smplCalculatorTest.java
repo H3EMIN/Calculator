@@ -12,5 +12,10 @@ public class smplCalculatorTest {
 		cal.add(10, 20);
 		assertEquals(30,cal.getResult());
 	}
-
+	@Test
+	public void testSub() {
+		smplCalculator cal = new smplCalculator();
+		cal.sub(40, 20);
+		assertEquals(20,cal.getResult());
+	}
 }
