@@ -30,4 +30,12 @@ public class smplCalculatorTest {
 		cal.div(48, 6);
 		assertEquals(8,cal.getResult());
 	}
+	@Test
+	public void testInc() {
+		smplCalculator cal = new smplCalculator();
+		cal.inc(102);
+		assertEquals(102,cal.getResult());
+		cal.inc(23);
+		assertEquals(125,cal.getResult());
+	}
 }

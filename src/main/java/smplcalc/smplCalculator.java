@@ -15,8 +15,9 @@ public class smplCalculator {
 	public void div(int a, int b){
 		if(b!=0)
 			result = a/b;
-		else
-			System.out.println("분모가 0 입니다");
+	}
+	public void inc(int a){
+		result += a;
 	}
 	public int getResult(){
 		return result;
