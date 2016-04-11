@@ -12,6 +12,9 @@ public class smplCalculator {
 	public void multi(int a, int b){
 		result = a*b;
 	}
+	public void div(int a, int b){
+		result = a/b;
+	}
 	public int getResult(){
 		return result;
 	}

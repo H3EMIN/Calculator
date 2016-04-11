@@ -24,4 +24,10 @@ public class smplCalculatorTest {
 		cal.multi(6, 8);
 		assertEquals(48,cal.getResult());
 	}
+	@Test
+	public void testDiv() {
+		smplCalculator cal = new smplCalculator();
+		cal.div(48, 6);
+		assertEquals(8,cal.getResult());
+	}
 }
