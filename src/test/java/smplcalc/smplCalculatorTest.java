@@ -18,4 +18,24 @@ public class smplCalculatorTest {
 		cal.sub(40, 20);
 		assertEquals(20,cal.getResult());
 	}
+	@Test
+	public void testMulti() {
+		smplCalculator cal = new smplCalculator();
+		cal.multi(6, 8);
+		assertEquals(48,cal.getResult());
+	}
+	@Test
+	public void testDiv() {
+		smplCalculator cal = new smplCalculator();
+		cal.div(48, 6);
+		assertEquals(8,cal.getResult());
+	}
+	@Test
+	public void testInc() {
+		smplCalculator cal = new smplCalculator();
+		cal.inc(102);
+		assertEquals(102,cal.getResult());
+		cal.inc(23);
+		assertEquals(125,cal.getResult());
+	}
 }
